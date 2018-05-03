@@ -1,0 +1,15 @@
+[github]
+	user = mikeverdicchio
+
+[core]
+	autocrlf = true
+
+[user]
+	email = mikeverdicchio@gmail.com
+	name = Mike Verdicchio
+
+[push]
+	default = current
+
+[color]
+	ui = true
