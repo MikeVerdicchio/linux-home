@@ -8,5 +8,6 @@ python
 python3
 python-pip
 python3-pip
+npm
 virtualenv
 wget
