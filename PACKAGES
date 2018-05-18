@@ -1,6 +1,7 @@
 aptitude
 colordiff
 curl
+clang
 git
 make
 nodejs
