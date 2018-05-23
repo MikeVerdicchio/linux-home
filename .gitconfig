@@ -13,3 +13,5 @@
 
 [color]
 	ui = true
+[alias]
+	update = !git pull && git submodule update --init --recursive
