@@ -119,3 +119,6 @@ fi
 [ -f ~/.bash_functions ] && . ~/.bash_functions
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
+# Ruby/Jekyll Exports
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
