@@ -119,3 +119,4 @@ fi
 [ -f ~/.bash_functions ] && . ~/.bash_functions
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
+export DOCKER_HOST=tcp://localhost:2375
