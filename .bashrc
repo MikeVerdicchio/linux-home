@@ -2,6 +2,11 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Force zsh
+if test -t 1; then
+    exec zsh
+fi
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -116,10 +121,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+[ -f ~/.bash_aliases ] && . ~/.bash_aliases
 [ -f ~/.bash_functions ] && . ~/.bash_functions
-[ -f ~/.aliases ] && . ~/.aliases
-
-export DOCKER_HOST=tcp://localhost:2375
-export GEM_HOME=$HOME/gems
-export PATH=$HOME/gems/bin:$PATH
-
+[ -f ~/.bash_env ] && . ~/.bash_env
