@@ -120,3 +120,6 @@ fi
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
 export DOCKER_HOST=tcp://localhost:2375
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
