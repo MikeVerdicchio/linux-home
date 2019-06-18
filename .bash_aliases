@@ -10,3 +10,5 @@ alias pipcleanall="pip freeze | grep -v '^-e ' | xargs pip uninstall -y"
 # Django
 alias dbuild="python manage.py makemigrations && python manage.py migrate && python manage.py runserver"
 
+# Git Home
+alias home='git --work-tree=$HOME --git-dir=$HOME/.home'
