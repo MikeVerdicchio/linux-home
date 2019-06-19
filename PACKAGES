@@ -4,11 +4,10 @@ curl
 clang
 git
 make
-nodejs
 python
 python3
 python-pip
 python3-pip
-npm
+nvm
 virtualenv
 wget
