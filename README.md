@@ -1,6 +1,13 @@
 Home Directory
 ==============
 
-The dot files needed for my customization of Bash on Ubuntu. Includes functions, alias, and packages to install on a fresh system.
+A collection of dotfiles and customization files for my Linux setup.
 
-Idea taken from @amontalenti. Some of the functions I have are copied from his "home" repository.
+For a clean setup without git marking every subdirectory of `~/` as a git repository:
+
+```bash
+alias home='git --work-tree=$HOME --git-dir=$HOME/.home'
+home init
+home remote add origin git@github.com:MikeVerdicchio/linux-home.git
+home pull origin master # Might have to remove conflicting files
+```
