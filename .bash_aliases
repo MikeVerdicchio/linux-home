@@ -2,6 +2,9 @@
 alias grep="grep --color=auto --exclude-dir='.git'"
 alias ls="ls -l"
 
+# Docker / Docker-Compose
+alias dc="docker-compose"
+
 # Python
 alias rmpyc="find . -name '*.pyc' -delete"
 alias pipthis="pip install -r requirements.txt"
@@ -12,3 +15,4 @@ alias dbuild="python manage.py makemigrations && python manage.py migrate && pyt
 
 # Git
 alias home='git --work-tree=$HOME --git-dir=$HOME/.home'
+alias gu="git pull && git remote prune origin"
