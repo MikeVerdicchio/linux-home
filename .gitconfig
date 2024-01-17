@@ -1,0 +1,9 @@
+[core]
+	editor = nano
+[user]
+	name = Mike Verdicchio
+	email = mikeverdicchio@gmail.com
+[pull]
+	rebase = false
+[fetch]
+	prune = true
